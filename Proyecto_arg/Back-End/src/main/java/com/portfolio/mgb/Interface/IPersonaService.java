@@ -1,3 +1,4 @@
+
 package com.portfolio.mgb.Interface;
 
 import com.portfolio.mgb.Entity.Persona;
@@ -5,7 +6,7 @@ import java.util.List;
 
 
 public interface IPersonaService {
-    //Traer una Lista de Persona
+    //Traer una Lista de Personas
     public List<Persona> getPersona();
     
     //Guardar un objeto de tipo Persona

@@ -1,4 +1,7 @@
-
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package com.portfolio.lmp.Service;
 
 import com.portfolio.lmp.Entity.Persona;
@@ -9,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
+
 public class ImpPersonaService implements IPersonaService {
     @Autowired IPersonaRepository ipersonaRepository;
     
@@ -25,13 +29,14 @@ public class ImpPersonaService implements IPersonaService {
 
     @Override
     public void deletePersona(Long id) {
-        ipersonaRepository.deleteById(id);
+        ipersonaRepository.deleteById(Integer.SIZE);
     }
 
     @Override
     public Persona findPersona(Long id) {
-        Persona persona = ipersonaRepository.findById(id).orElse(null);
-                return persona;
+    Persona persona = ipersonaRepository.findById(Integer.SIZE).orElse(null);
+    return persona;
     }
-    
+           
+
 }

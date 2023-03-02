@@ -7,7 +7,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
- expURL = 'https://lucas-developer-lucasmanuelpotesk5gm26ifcq.koyeb.app/explab/'
+ expURL = 'https://lucas-developer-lucasmanuelpotesk5gm26ifcq.koyeb.app/explab/';
  constructor(private httpClient: HttpClient) { }
 
  public lista(): Observable<Experiencia[]>{

@@ -9,7 +9,7 @@ import { Educacion } from '../model/educacion';
 export class EducacionService {
 URL = 'https://lucas-developer-lucasmanuelpotesk5gm26ifcq.koyeb.app/educacion/';
 
-  constructor(private httpClient : HttpClient) { }
+  constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<Educacion[]>{
     return this.httpClient.get<Educacion[]>(this.URL + 'lista');

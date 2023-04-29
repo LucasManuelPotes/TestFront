@@ -9,6 +9,7 @@ import { persona } from '../model/persona.model';
 })
 export class PersonaService {
   URL = 'https://lucas-developer-lucasmanuelpotesk5gm26ifcq.koyeb.app/personas/';
+  
 
   constructor(private httpClient: HttpClient) { }
 

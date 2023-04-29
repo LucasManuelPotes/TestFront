@@ -7,7 +7,8 @@ import { Skill } from '../model/skill';
   providedIn: 'root'
 })
 export class SkillService {
-  URL = 'lucas-developer-lucasmanuelpotesk5gm26ifcq.koyeb.app/';
+
+  URL = 'https://lucas-developer-lucasmanuelpotesk5gm26ifcq.koyeb.app/skill/';
   
   constructor(private httpClient: HttpClient) { }
 
